@@ -66,8 +66,8 @@ using temporary and limited-privilege credentials."*
 
 If you must use IAM users, the separation principle suggests:
 
-• **Human-Console-User**: Password + MFA, broader interactive permissions
-• **Service-API-User**: Access keys only, narrow programmatic permissions, no console access
+•**Human-Console-User**: Password + MFA, broader interactive permissions
+•**Service-API-User**: Access keys only, narrow programmatic permissions, no console access
 
 This approach aligns with the AWS security principle of defense in depth and least privilege access.
 
