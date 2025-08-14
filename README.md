@@ -24,22 +24,30 @@ iam.html)
 
 #### **1. Credential Exposure Risk Reduction**
 • **Console passwords** are typically used interactively and stored in password managers
+
 • **Access keys** are used programmatically and may be stored in code, config files, or environment variables
+
 • Separating them limits the blast radius if one credential type is compromised
 
 #### **2. Different Security Requirements**
 • **Console access** can enforce MFA more easily for interactive sessions
+
 • **Programmatic access** may need to work in automated environments where MFA is challenging
+
 • Different rotation schedules and policies can be applied
 
 #### **3. Principle of Least Privilege**
 • **Console users** may need broader permissions for interactive troubleshooting
+
 • **API users** should have very specific, narrow permissions for their automated tasks
+
 • Separation allows for more granular permission management
 
 #### **4. Audit and Monitoring**
 • **Console activities** and API calls have different monitoring requirements
+
 • Easier to track and alert on unusual patterns when access types are separated
+
 • CloudTrail logs can be analyzed more effectively
 
 #### **5. Credential Lifecycle Management**
