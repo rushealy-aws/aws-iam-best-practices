@@ -10,12 +10,10 @@
 2. [Secure Access Keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/securing_access-keys.html)
    • Specific guidance on protecting programmatic access credentials
 
-3. [Programmatic Access with AWS Security Credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds-programmatic-
-access.html)
+3. [Programmatic Access with AWS Security Credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds-programmatic-access.html)
    • Detailed guidance on programmatic vs console access
 
-4. [AWS Well-Architected Framework - Identity and Access Management](https://docs.aws.amazon.com/wellarchitected/2023-10-03/framework/sec-
-iam.html)
+4. [AWS Well-Architected Framework - Identity and Access Management](https://docs.aws.amazon.com/wellarchitected/2023-10-03/framework/sec-iam.html)
    • High-level security principles for identity management
 
 ## 🛡️ Security Principles for Separating Console and API Access
