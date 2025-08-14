@@ -52,7 +52,9 @@ iam.html)
 
 #### **5. Credential Lifecycle Management**
 • **Console passwords** follow human user lifecycle (hiring/termination)
+
 • **Access keys** follow application/service lifecycle
+
 • Different rotation and management policies can be applied
 
 ## 📋 AWS Recommended Approach
